@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>De kip en haar ei</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="index.html">
+                <img src="./images/Haan_logo-330px.png" alt=""/>
+            </a>
+        </header>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ei.html">Ei</a></li>
+                    <li><a href="kip.html">Kip</a></li>
+                    <li><a href="Haan.html">Haan</a></li>
+                    <li><a href="contact.html">Wat denk jij?</a></li>
+                </ul>
+            </nav>
+
+        <main class="main">
+            <h2>WAT DENK JIJ?</h2>
+            <h4>Deel je mening en ontvang een gratis eierdoos!</h4>
+            <div class="contactform">
+                <div><img src="Images/eierdoos.png"/></div>
+                <form name="contact" method="POST" data-netlify="true">
+                <label>Voornaam:</label><br>
+                <input type="text" name="Voornaam" required><br><br>
+                <label>Achternaam:</label><br>
+                <input type="text" name="Achternaam" required><br><br>
+                <label>Email:</label><br>
+                <input type="email" name="email" required><br><br>
+                <label>Telefoonnummer:</label><br>
+                <input type="tel" name="tel" required><br><br>
+                <label>Leeftijd:</label><br>
+                <input type="tel" name="Leeftijd"><br><br>
+                <label>Geboortedatum:</label><br>
+                <input type="date" name="geboortedatum"><br><br>
+                <p>Geslacht:</p>
+                <input name="gender" type="radio" id="Man" value="Man">
+                <label for="gender">Man</label><br>
+                <input name="gender" type="radio" id="Vrouw" value="Vrouw">
+                <label for="gender">Vrouw</label><br>
+                <br>
+                <p>Eerst was er:</p>
+                <input name="keuze" type="radio" id="Kip" value="Kip">
+                <label for="keuze">Kip</label><br>
+                <input name="keuze" type="radio" id="Ei" value="Ei">
+                <label for="keuze">Ei</label><br>
+                <input name="keuze" type="radio" id="Haan" value="Haan">
+                <label for="keuze">Haan</label><br>
+                <br>
+                <label>Leg je keuze uit:</label><br>
+                <textarea cols="30" rows="10" name="Uitleg"></textarea><br><br>
+                <label>Deel je lekkerste recept met kip:</label><br>
+                <input type="file" name="recept"><br><br>
+                <input type="reset">
+                <input type="submit">
+                </form>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p> 
+            <a href="https://nl.wikipedia.org/wiki/Kip-en-eiprobleem">Bron: Wikipedia</a>
+            <br><br>
+            <a href="https://www.linkedin.com/in/bart-haans-3449125/">Made by: Bart Haans</a>
+            </p>
+        </footer>
+
+        </div>
+
+</body>
+
+</html>
